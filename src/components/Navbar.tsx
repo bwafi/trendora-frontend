@@ -4,8 +4,14 @@ const Navbar = () => {
   return (
     <nav className="w-full px-20 py-5 flex items-center justify-between">
       <div className="flex items-center gap-6">
-        <div>
-          <Image width={30} height={30} alt="Trendora" src={"/trendora.svg"} />
+        <div className="w-[30px] h-[30px] aspect-square">
+          <Image
+            width={30}
+            height={30}
+            alt="Trendora"
+            src={"/trendora.svg"}
+            className="w-auto h-auto"
+          />
         </div>
         <ul className="flex gap-6 text-base font-bold">
           <li>Women</li>
