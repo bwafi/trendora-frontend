@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        banner: "#4A4C6C",
       },
       fontFamily: {
         spaceGrotesk: ["var(--font-space-grotest)"],
