@@ -14,7 +14,7 @@ export default {
         banner: "#4A4C6C",
       },
       fontFamily: {
-        spaceGrotesk: ["var(--font-space-grotest)"],
+        cabinetGrotesk: ["var(--font-cabinet-grotesk)"],
       },
     },
   },

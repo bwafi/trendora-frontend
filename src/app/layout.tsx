@@ -1,11 +1,21 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotest",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const cabinetGrotesk = localFont({
+  src: [
+    {
+      path: "../../public/fonts/CabinetGrotesk-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/CabinetGrotesk-Bold.otf",
+      weight: "800",
+      style: "normal",
+    },
+  ],
+  variable: "--font-cabinet-grotesk",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} antialiased`}>{children}</body>
+      <body className={`${cabinetGrotesk.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
