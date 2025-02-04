@@ -12,7 +12,7 @@ const Shop = () => {
           WHAT’S TRENDING
         </button>
       </div>
-      <div className="grid grid-cols-5">
+      <div className="grid grid-cols-5 mt-16">
         <ShopCard />
         <ShopCard />
         <ShopCard />
