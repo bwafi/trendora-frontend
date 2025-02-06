@@ -15,6 +15,7 @@ export default {
       },
       fontFamily: {
         cabinetGrotesk: ["var(--font-cabinet-grotesk)"],
+        geist: ["var(--font-geist)"],
       },
     },
   },

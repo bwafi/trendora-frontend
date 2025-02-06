@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Geist } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -23,6 +24,12 @@ const cabinetGrotesk = localFont({
   variable: "--font-cabinet-grotesk",
 });
 
+const geist = Geist({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: "--font-geist",
+});
+
 export const metadata: Metadata = {
   title: "Trendora - Your Style, Your Statement",
   description:
@@ -36,7 +43,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cabinetGrotesk.variable} antialiased`}>
+      <body
+        className={`${cabinetGrotesk.variable} ${geist.variable} antialiased`}>
         {children}
       </body>
     </html>
