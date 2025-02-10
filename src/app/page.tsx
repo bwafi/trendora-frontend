@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import BestSelling from "@/components/BestSelling";
 import Headline from "@/components/Headline";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Shop />
       <Headline />
+      <BestSelling />
     </div>
   );
 }

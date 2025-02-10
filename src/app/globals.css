@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 2px #181818;
+  }
+
+  .text-stroke-sm {
+    -webkit-text-stroke: 1px #181818;
+  }
+
+  .text-stroke-lg {
+    -webkit-text-stroke: 3px #181818;
+  }
+}
+
 :root {
   --background: #F4F4F4;
   --foreground: #171717;
