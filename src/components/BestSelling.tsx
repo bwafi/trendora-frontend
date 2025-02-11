@@ -1,4 +1,5 @@
 import React from "react";
+import ShopCard from "./ShopCard";
 
 const BestSelling = () => {
   return (
@@ -49,6 +50,28 @@ const BestSelling = () => {
             </svg>
           </div>
         </div>
+      </div>
+
+      <div className="flex overflow-x-auto whitespace-nowrap">
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>
+        <div className="flex-none w-1/5">
+          <ShopCard />
+        </div>{" "}
+        {/* Ini akan menyebabkan scrolling horizontal */}
       </div>
     </div>
   );
