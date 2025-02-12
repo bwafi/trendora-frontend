@@ -52,26 +52,17 @@ const BestSelling = () => {
         </div>
       </div>
 
-      <div className="flex overflow-x-auto whitespace-nowrap">
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>
-        <div className="flex-none w-1/5">
-          <ShopCard />
-        </div>{" "}
-        {/* Ini akan menyebabkan scrolling horizontal */}
+      <div className="grid grid-cols-5 mt-16">
+        <ShopCard />
+        <ShopCard />
+        <ShopCard />
+        <ShopCard />
+        <ShopCard />
+      </div>
+      <div className="flex items-center justify-center my-20">
+        <button className="bg-[#181818] font-bold font-cabinetGrotesk text-white px-5 py-2 transition duration-300 ease-in-out transform hover:skew-x-6 hover:scale-105">
+          SHOP NOW
+        </button>
       </div>
     </div>
   );
