@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import BestSelling from "@/components/BestSelling";
+import FeatureBanner from "@/components/FeatureBanner";
 import Headline from "@/components/Headline";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Shop />
       <Headline />
       <BestSelling />
+      <FeatureBanner />
     </div>
   );
 }
