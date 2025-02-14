@@ -4,6 +4,7 @@ import FeatureBanner from "@/components/FeatureBanner";
 import Headline from "@/components/Headline";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 import Shop from "@/components/Shop";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Headline />
       <BestSelling />
       <FeatureBanner />
+      <Services />
     </div>
   );
 }
