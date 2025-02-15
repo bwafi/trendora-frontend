@@ -34,7 +34,7 @@ const FeatureBanner = () => {
           className="object-cover"
         />
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 ">
-          <CtaButton title="SNEAKERS" />
+          <CtaButton title="SNEAKERS" className="text-white" />
         </div>
       </div>
       <div className="w-[33%] h-[630px] relative">
@@ -45,7 +45,7 @@ const FeatureBanner = () => {
           className="object-cover object-[100%_75%]"
         />
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 ">
-          <CtaButton title="SPORTS" />
+          <CtaButton title="SPORTS" className="text-white" />
         </div>
       </div>
       <div className="w-2/3 h-[630px] relative">

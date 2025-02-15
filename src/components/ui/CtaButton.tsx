@@ -9,7 +9,7 @@ const CtaButton = ({
 }) => {
   return (
     <button
-      className={`bg-[#181818] font-bold font-cabinetGrotesk text-white px-5 py-2 transition duration-300 ease-in-out transform hover:skew-x-6 hover:scale-105 ${className}`}>
+      className={`bg-[#181818] font-bold font-cabinetGrotesk px-5 py-2 transition duration-300 ease-in-out transform hover:skew-x-6 hover:scale-105 ${className}`}>
       {title}
     </button>
   );
